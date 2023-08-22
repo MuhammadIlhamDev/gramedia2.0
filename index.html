@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gramedia2.0</title>
+    <!-- link-cdn-icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- link-styleCss -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link-googleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link-swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="mini-top-header">
+      <i class="ri-question-fill"></i>
+      <p>Bantuan</p>
+    </div>
+    <div class="navbar">
+      <img
+        src="https://www.gramedia.com/assets/gramedia-icon-2.png"
+        alt="Logo"
+      />
+      <div class="navbar-left">
+        <p>Kategori</p>
+        <i class="ri-arrow-down-s-line"></i>
+      </div>
+      <div class="navbar-middle">
+        <input type="text" placeholder="Cari Produk, Judul Buku, penulis" />
+        <i class="ri-search-line"></i>
+      </div>
+      <div class="navbar-right">
+        <p>Masuk</p>
+        <i class="ri-shopping-bag-line"></i>
+      </div>
+    </div>
+
+    <swiper-container
+      class="mySwiper"
+      pagination="true"
+      pagination-clickable="true"
+      space-between="30"
+      effect="fade"
+      navigation="false"
+      autoplay="true"
+    >
+      <swiper-slide
+        ><img
+          src="https://cdn.gramedia.com/uploads/marketing/Promo_KOMDIK_Seru_Storefront__wauto_h336.jpg"
+          alt=""
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://cdn.gramedia.com/uploads/marketing/Special_Offer_Bertemu_di_Temaram_Storefront__wauto_h336.jpg"
+          alt=""
+      /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://cdn.gramedia.com/uploads/marketing/Promo_Kejutan_Akhir_Bulan_Storefront_N5MhgoQ__wauto_h336.jpg"
+          alt=""
+      /></swiper-slide>
+    </swiper-container>
+    <h2 class="title-card">Rekomendasi Gramedia Untukmu</h2>
+    <div class="wrapper-card">
+      <div class="card">
+        <img
+          src="https://cdn.gramedia.com/uploads/items/9786020523316_Melangkah_UV_Spot_R4-1__w150_hauto.jpg"
+          alt="Melangkah"
+        />
+        <p><small>J.S Khairen</small></p>
+        <p>Melangkah</p>
+        <p class="card-price">Rp 69.750</p>
+        <p><del>93.00</del></p>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://cdn.gramedia.com/uploads/items/9786024246945_Laut-Bercerita__w150_hauto.png"
+          alt="Laut-Bercerita"
+        />
+        <div class="deskripsi-card">
+          <p><small>Leila S. Chudori</small></p>
+          <p>Laut Bercerita</p>
+          <p class="card-price">Rp 115.000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://cdn.gramedia.com/uploads/items/WhatsApp_Image_2021-12-20_at_1.42.06_PM__w150_hauto.jpeg"
+          alt="Melangkah"
+        />
+        <p><small>Ono Eriko</small></p>
+        <p>Hai, miiko! 34-Premium bonus...</p>
+        <p class="card-price">Rp 69.750</p>
+        <p><del>93.00</del></p>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://cdn.gramedia.com/uploads/items/Home_Sweet_Loan_cov__w150_hauto.jpg"
+          alt="Melangkah"
+        />
+        <p><small>Almira Bastari</small></p>
+        <p>Home Sweet Loan</p>
+        <p class="card-price">Rp 99.000</p>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://cdn.gramedia.com/uploads/picture_meta/2023/2/14/iddphd9rbufdfjabf4owuf__w150_hauto.jpg"
+          alt="Melangkah"
+        />
+        <p><small>Axie Oh</small></p>
+        <p>the girl who fell Beneath The Sea </p>
+        <p class="card-price">Rp 86.250</p>
+        <p><del>115.000</del></p>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://cdn.gramedia.com/uploads/items/9786230029783_Jujutsukaisen_5__w150_hauto.jpg"
+          alt="Melangkah"
+        />
+        <p><small>Gege Akutami</small></p>
+        <p>Jujutsu Kaisen 05</p>
+        <p class="card-price">Rp 40.000</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- script-swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
