@@ -11,13 +11,7 @@
     />
     <!-- link-styleCss -->
     <link rel="stylesheet" href="style.css" />
-    <!-- link-googleFonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
-      rel="stylesheet"
-    />
+
     <!-- link-swiper -->
     <link
       rel="stylesheet"
@@ -29,50 +23,130 @@
       <i class="ri-question-fill"></i>
       <p>Bantuan</p>
     </div>
-    <div class="navbar">
-      <img
-        src="https://www.gramedia.com/assets/gramedia-icon-2.png"
-        alt="Logo"
-      />
-      <div class="navbar-left">
-        <p>Kategori</p>
-        <i class="ri-arrow-down-s-line"></i>
-      </div>
-      <div class="navbar-middle">
-        <input type="text" placeholder="Cari Produk, Judul Buku, penulis" />
-        <i class="ri-search-line"></i>
-      </div>
-      <div class="navbar-right">
-        <p>Masuk</p>
-        <i class="ri-shopping-bag-line"></i>
+    <div class="container">
+      <div class="navbar">
+        <div class="menu-hamburger">
+          <svg
+            width="32px"
+            height="32px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke="#CCCCCC"
+              stroke-width="0.096"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20.75 7C20.75 7.41421 20.4142 7.75 20 7.75L4 7.75C3.58579 7.75 3.25 7.41421 3.25 7C3.25 6.58579 3.58579 6.25 4 6.25L20 6.25C20.4142 6.25 20.75 6.58579 20.75 7Z"
+                fill="#0060ae"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20.75 12C20.75 12.4142 20.4142 12.75 20 12.75L4 12.75C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25L20 11.25C20.4142 11.25 20.75 11.5858 20.75 12Z"
+                fill="#0060ae"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20.75 17C20.75 17.4142 20.4142 17.75 20 17.75L4 17.75C3.58579 17.75 3.25 17.4142 3.25 17C3.25 16.5858 3.58579 16.25 4 16.25L20 16.25C20.4142 16.25 20.75 16.5858 20.75 17Z"
+                fill="#0060ae"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="logo-wrapper">
+          <img
+            src="https://www.gramedia.com/assets/gramedia-icon-2.png"
+            alt="Logo"
+            class="logo"
+          />
+        </div>
+        <div class="user-wrapper">
+          <svg
+            width="31px"
+            height="31px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <circle
+                cx="12"
+                cy="9"
+                r="3"
+                stroke="#0060ae"
+                stroke-width="1.5"
+              ></circle>
+              <path
+                d="M17.9691 20C17.81 17.1085 16.9247 15 11.9999 15C7.07521 15 6.18991 17.1085 6.03076 20"
+                stroke="#0060ae"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7"
+                stroke="#0060ae"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="navbar-left">
+          <p>Kategori</p>
+          <i class="ri-arrow-down-s-line"></i>
+        </div>
+        <div class="navbar-middle">
+          <input type="text" placeholder="Cari Produk, Judul Buku, penulis" />
+          <i class="ri-search-line"></i>
+        </div>
+        <div class="navbar-right">
+          <p>Masuk</p>
+          <i class="ri-shopping-bag-line"></i>
+        </div>
       </div>
     </div>
-
-    <swiper-container
-      class="mySwiper"
-      pagination="true"
-      pagination-clickable="true"
-      space-between="30"
-      effect="fade"
-      navigation="false"
-      autoplay="true"
-    >
-      <swiper-slide
-        ><img
-          src="https://cdn.gramedia.com/uploads/marketing/Promo_KOMDIK_Seru_Storefront__wauto_h336.jpg"
-          alt=""
-      /></swiper-slide>
-      <swiper-slide
-        ><img
-          src="https://cdn.gramedia.com/uploads/marketing/Special_Offer_Bertemu_di_Temaram_Storefront__wauto_h336.jpg"
-          alt=""
-      /></swiper-slide>
-      <swiper-slide
-        ><img
-          src="https://cdn.gramedia.com/uploads/marketing/Promo_Kejutan_Akhir_Bulan_Storefront_N5MhgoQ__wauto_h336.jpg"
-          alt=""
-      /></swiper-slide>
-    </swiper-container>
+    <div class="container">
+      <swiper-container
+        pagination="true"
+        pagination-clickable="true"
+        space-between="30"
+        effect="fade"
+        navigation="false"
+        autoplay="true"
+      >
+        <swiper-slide
+          ><img
+            src="https://cdn.gramedia.com/uploads/marketing/Promo_KOMDIK_Seru_Storefront__wauto_h336.jpg"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            src="https://cdn.gramedia.com/uploads/marketing/Special_Offer_Bertemu_di_Temaram_Storefront__wauto_h336.jpg"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            src="https://cdn.gramedia.com/uploads/marketing/Promo_Kejutan_Akhir_Bulan_Storefront_N5MhgoQ__wauto_h336.jpg"
+            alt=""
+        /></swiper-slide>
+      </swiper-container>
+    </div>
     <h2 class="title-card">Rekomendasi Gramedia Untukmu</h2>
     <div class="wrapper-card">
       <div class="card">
@@ -125,7 +199,7 @@
           alt="Melangkah"
         />
         <p><small>Axie Oh</small></p>
-        <p>the girl who fell Beneath The Sea </p>
+        <p>the girl who fell Beneath The Sea</p>
         <p class="card-price">Rp 86.250</p>
         <p><del>115.000</del></p>
       </div>
